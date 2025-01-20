@@ -64,7 +64,7 @@ def process_all_files(base_folder, outfolder):
                             process(csv_path, json_path, outfolder)
                         
 # 기준 폴더 설정
-base_folder = "./data"  # 루트 폴더
+base_folder = "./data/VL"  # 루트 폴더
 outfolder = "./data/processed_files"  # 수정된 CSV 파일이 저장될 폴더
 process_all_files(base_folder, outfolder)
 
